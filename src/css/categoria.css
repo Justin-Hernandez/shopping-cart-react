@@ -1,0 +1,39 @@
+.div-categoria {
+    overflow-y: scroll;
+    backdrop-filter: blur(7px);
+}
+
+.categoria-inicial {
+    height: 0;
+    opacity: 0
+}
+
+.categoria-escondida {
+    animation: slide-inverso 0.5s forwards;
+}
+
+.categoria-visible {
+    animation: slide 0.5s forwards;
+}
+
+@keyframes slide {
+  from {
+      height: 0;
+      opacity: 0
+    }
+  to {
+      height: 450px;
+      opacity: 1
+    }
+}
+
+@keyframes slide-inverso {
+    from {
+        height: 450px;
+        opacity: 1
+    }
+    to {
+        height: 0;
+        opacity: 0
+    }
+}

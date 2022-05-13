@@ -1,0 +1,38 @@
+body {
+  background-color: #e5e5f7; 
+  background-image:  radial-gradient(#000000 1.6px, transparent 1.6px), radial-gradient(#000000 1.6px, #e5e5f7 1.6px);
+  background-size: 64px 64px;
+  background-position: 0 0,32px 32px;
+}
+
+.item-carrito{
+  background-color: white;
+}
+
+.btn-outline-dark, .btn-outline-danger{
+  background-color: white;
+}
+
+input, textarea, .btn, .btn-acordion, .item-carrito{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 0px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background-color: #a8bbbf;
+}
