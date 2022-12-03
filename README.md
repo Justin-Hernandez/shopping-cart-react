@@ -1,4 +1,4 @@
-<img src="https://github.com/Justin-Hernandez/shopping-cart-react/blob/main/assets/demo.gif">
+<img src="https://github.com/Justin-Hernandez/shopping-cart-react/blob/master/assets/demo.gif">
 
 # Getting Started with Create React App
 
